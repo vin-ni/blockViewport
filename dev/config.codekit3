@@ -9,22 +9,12 @@
 	],
 "creatorBuild": "26330",
 "files": {
-	"\/blockViewport-min.js": {
+	"\/blockViewport-dev.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/blockViewport-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/blockViewport.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/blockViewport-min.js",
+		"oAP": "\/blockViewport-dev-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
