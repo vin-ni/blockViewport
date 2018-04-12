@@ -1,8 +1,9 @@
 # blockViewport
 
 This plugin allows to `block` different viewport widths with a custom message. Useful when sending demos that only work for certain sizes.
-![Pixel Wave Animation Preview](/dev/img/blockViewport.gif "Pixel Wave Animation Preview")
 View the demo [here](http://cloud.sansho.studio/hosting/blockViewport/).
+
+![Pixel Wave Animation Preview](/dev/img/blockViewport.gif "Pixel Wave Animation Preview")
 
 ## Install
 At the bottom of your body:
