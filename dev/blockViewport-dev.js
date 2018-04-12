@@ -1,5 +1,15 @@
 /* eslint-disable */
 
+/*! 
+//
+//	blockViewport.js
+// 	Block different viewports 
+// 	Version 0.1 12/04/18
+// 	Created by Vinzenz Aubry for sansho (04/12/17)
+// 	@license MIT Licensed
+//
+*/
+
 function BlockViewport(settings) {
 	this.settings = settings;
 	this.inject();

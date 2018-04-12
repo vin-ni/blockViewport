@@ -1,6 +1,8 @@
 # blockViewport
 
 This plugin allows to `block` different viewport widths with a custom message. Useful when sending demos that only work for certain sizes.
+![Pixel Wave Animation Preview](/dev/img/blockViewport.gif "Pixel Wave Animation Preview")
+View the demo [here](http://cloud.sansho.studio/hosting/blockViewport/).
 
 ## Install
 At the bottom of your body:
@@ -34,19 +36,20 @@ You can also chain several blockers in the array.
 <script src="js/blockViewport.js"></script>
 
 blockViewport = new BlockViewport([
-           {
-               color: '#3300FF',
-               fontColor: '#FFFFFF',
-               text: 'Please view this on a mobile device',
-               widthStart: 1000,
-               widthEnd: 1400
+           {color: '#3300FF',
+            fontColor: '#FFFFFF',
+            text: 'Please view this on a mobile device',
+            widthStart: 1000,
+            widthEnd: 1400
            },
-           {
-               color: 'pink',
-               fontColor: 'black',
-               text: 'Mobile Viewport Blocked',
-               widthStart: 0,
-               widthEnd: 480
+           {color: 'pink',
+            fontColor: 'black',
+            text: 'Mobile Viewport Blocked',
+            widthStart: 0,
+            widthEnd: 480
            }
         ]);
 ```
+
+### Contribution
+If anyone wants to contribute, just fork the project or write me at vinzenz@sansho.studio :)
