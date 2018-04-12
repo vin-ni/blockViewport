@@ -1,4 +1,4 @@
-# blockViewport
+# blockViewport.js
 
 This plugin allows to `block` different viewport widths with a custom message. Useful when sending demos that only work for certain sizes.
 View the demo [here](http://cloud.sansho.studio/hosting/blockViewport/).
