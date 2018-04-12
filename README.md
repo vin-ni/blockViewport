@@ -11,12 +11,13 @@ At the bottom of your body:
 <script src="js/blockViewport.js"></script>
 
 blockViewport = new BlockViewport([{
-	          {color: 'pink',
-               fontColor: 'black',
-               text: 'Mobile Viewport Blocked',
-               widthStart: 0,
-               widthEnd: 480
-		      }
+        {
+        color: 'pink',
+        fontColor: 'black',
+        text: 'Mobile Viewport Blocked',
+        widthStart: 0,
+        widthEnd: 480
+        }
 ]);
 ```
 
@@ -37,19 +38,20 @@ You can also chain several blockers in the array.
 <script src="js/blockViewport.js"></script>
 
 blockViewport = new BlockViewport([
-           {color: '#3300FF',
+        {
+        color: '#3300FF',
             fontColor: '#FFFFFF',
             text: 'Please view this on a mobile device',
             widthStart: 1000,
             widthEnd: 1400
-           },
-           {color: 'pink',
-            fontColor: 'black',
-            text: 'Mobile Viewport Blocked',
-            widthStart: 0,
-            widthEnd: 480
-           }
-        ]);
+        },{
+        color: 'pink',
+        fontColor: 'black',
+        text: 'Mobile Viewport Blocked',
+        widthStart: 0,
+        widthEnd: 480
+        }
+]);
 ```
 
 ### Contribution
