@@ -19,6 +19,7 @@ blockViewport = new BlockViewport([{
 
 ## Options
 When adding the blocker, you can different options to style the message:
+
 | Description                                       | Name       | Default                                                   |
 |---------------------------------------------------|------------|-----------------------------------------------------------|
 | The background color. Takes all valid css colors. | color      | #000000                                                   |
