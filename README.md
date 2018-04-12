@@ -19,13 +19,13 @@ blockViewport = new BlockViewport([{
 
 ## Options
 When adding the blocker, you can different options to style the message:
-|Description|Name|Default|
-|--|--|--|
-|The background color. Takes all valid css colors.|color|#000000|
-|The font color. Takes all valid css colors.|fontcolor|#FFFFFF|
-|The message that should be displayed. |text|This viewport is blocked. Please change your browser size|
-|Min. width of the blocker|widthStart|0|
-|Max. width of the blocker|widthEnd|9999|
+| Description                                       | Name       | Default                                                   |
+|---------------------------------------------------|------------|-----------------------------------------------------------|
+| The background color. Takes all valid css colors. | color      | #000000                                                   |
+| The font color. Takes all valid css colors.       | fontcolor  | #FFFFFF                                                   |
+| The message that should be displayed.             | text       | This viewport is blocked. Please change your browser size |
+| Min. width of the blocker                         | widthStart | 0                                                         |
+| Max. width of the blocker                         | widthEnd   | 9999                                                      |
 
 ## Full Example with options
 You can also chain several blockers in the array.
