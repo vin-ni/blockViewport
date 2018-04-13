@@ -9,6 +9,8 @@ View the demo [here](http://cloud.sansho.studio/hosting/blockViewport/).
 At the bottom of your body:
 ```javascript
 <script src="js/blockViewport.js"></script>
+// it's not on a cdn yet, but for now you can also use:
+// <script src="https://cloud.sansho.studio/hosting/blockViewport/blockViewport.js"></script>
 
 blockViewport = new BlockViewport([{
         {
@@ -36,6 +38,8 @@ When adding the blocker, you can different options to style the message:
 You can also chain several blockers in the array.
 ```javascript
 <script src="js/blockViewport.js"></script>
+// it's not on a cdn yet, but for now you can also use:
+// <script src="https://cloud.sansho.studio/hosting/blockViewport/blockViewport.js"></script>
 
 blockViewport = new BlockViewport([
         {
