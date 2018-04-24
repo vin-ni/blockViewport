@@ -12,7 +12,7 @@ At the bottom of your body:
 // it's not on a cdn yet, but for now you can also use:
 // <script src="https://cloud.sansho.studio/hosting/blockViewport/blockViewport.js"></script>
 
-blockViewport = new BlockViewport([{
+blockViewport = new BlockViewport([
         {
         color: 'pink',
         fontColor: 'black',
