@@ -36,7 +36,7 @@ BlockViewport.prototype.inject = function () {
 }
 
 BlockViewport.prototype.generateHTML = function (settings) {
-	let html = `<div class="blockViewport" data-start="${settings.widthStart}" data-end="${settings.widthEnd}" style="width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color:${settings.color}; display: flex; align-items: center; justify-content: center;"><p style="font-size: 2rem; color: ${settings.fontColor}; line-height: 1.6 height: auto; text-align: center; width: 75vw; margin-bottom: 5vh;">${settings.text}</p></div>`;
+	let html = `<div class="blockViewport" data-start="${settings.widthStart}" data-end="${settings.widthEnd}" style="width: 100%; z-index: 99999; height: 100%; position: fixed; top: 0; left: 0; background-color:${settings.color}; display: flex; align-items: center; justify-content: center;"><p style="font-size: 2rem; color: ${settings.fontColor}; line-height: 1.6 height: auto; text-align: center; width: 75vw; margin-bottom: 5vh;">${settings.text}</p></div>`;
 	return html;
 }
 
