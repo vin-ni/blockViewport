@@ -59,4 +59,4 @@ blockViewport = new BlockViewport([
 ```
 
 ### Contribution
-If anyone wants to contribute, just fork the project or write me at vinzenz@sansho.studio :)
+If anyone wants to contribute, just fork the project or write me at v@vinzenzaubry.com :)
